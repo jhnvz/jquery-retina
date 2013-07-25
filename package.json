@@ -21,10 +21,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jhnvz/jauery-retina.git"
+    "url": "https://github.com/jhnvz/jquery-retina.git"
   },
   "bugs": {
-    "url": "https://github.com/jhnvz/jauery-retina/issues"
+    "url": "https://github.com/jhnvz/jquery-retina/issues"
   },
   "licenses": [
     {
@@ -32,5 +32,5 @@
       "url": "http://creativecommons.org/licenses/by/2.5/"
     }
   ],
-  "main": "./src/retina"
+  "main": "./js/jquery.retina.js"
 }
