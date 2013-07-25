@@ -1,0 +1,36 @@
+{
+  "name": "jquery-retina",
+  "version": "0.0.1",
+  "author": "Johan van Zonneveld",
+  "description": "Simple retina optimization with jQuery.",
+  "keywords": [
+    "retina",
+    "jquery"
+  ],
+  "scripts": {
+    "build": "node_modules/coffee-script/bin/coffee -cj js/jquery.retina.js coffee/*.coffee",
+    "pretest": "node_modules/coffee-script/bin/coffee -cj js/jquery.retina.js coffee/*.coffee && node_modules/coffee-script/bin/coffee -cj test/tests.js test/*.coffee",
+    "test": "node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
+  },
+  "devDependencies": {
+    "coffee-script": "1.6.x",
+    "mocha": "1.9.x",
+    "phantomjs": "1.9.x",
+    "mocha-phantomjs": "2.0.x",
+    "chai": "1.6.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhnvz/jauery-retina.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhnvz/jauery-retina/issues"
+  },
+  "licenses": [
+    {
+      "type": "Creative Commons Attribution 2.5 License",
+      "url": "http://creativecommons.org/licenses/by/2.5/"
+    }
+  ],
+  "main": "./src/retina"
+}
